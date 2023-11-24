@@ -1,8 +1,10 @@
 // ==UserScript==
-// @name     Fix Figma
-// @version  1
-// @grant    none
-// @match    https://www.figma.com/*
+// @name         figma-middle-key
+// @version      1
+// @description  Disables pasting with the middle mouse button on the canvas
+// @author       Yeahright
+// @match        https://www.figma.com/*
+// @grant        none
 // ==/UserScript==
 const middle_button = 1
 
