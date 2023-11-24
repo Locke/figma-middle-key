@@ -3,7 +3,7 @@
 // @version      1
 // @description  Disables pasting with the middle mouse button on the canvas
 // @author       Yeahright
-// @match        https://www.figma.com/*
+// @match        https://www.figma.com/file/*
 // @grant        none
 // ==/UserScript==
 const middle_button = 1
