@@ -1,11 +1,15 @@
 // ==UserScript==
 // @name         figma-middle-key
-// @namespace    http://tampermonkey.net/
-// @version      2
+// @namespace    https://athalis.de/
+// @source       https://github.com/Locke/figma-middle-key/
+// @updateURL    https://github.com/Locke/figma-middle-key/raw/main/figma-middle-key.user.js
+// @version      3
 // @description  Disables pasting with the middle mouse button on the canvas
 // @author       Yeahright, André Wolski
 // @match        https://www.figma.com/file/*
 // @grant        none
+// @sandbox      JavaScript
+// @run-at       document-idle
 // ==/UserScript==
 
 (function() {
